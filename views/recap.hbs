@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <a style="margin: 5px 20px 5px 20px;" id="next" href="/recap/new" class="btn btn-primary">des joueurs et des disciplines!</a>
+
+    {{#each athlete}}
+    <div class="row" style="margin: 5px 20px 5px 20px;">
+        <div class="card" style="width: 100%; max-width: 50rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{name}}</h5>
+                <h5 class="card-title">{{firstname}}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{gender}}</h6>
+                <p class="card-text">{{country}}</p>                
+            </div>
+        </div>
+    </div>
+    {{/each}}
+   
+</div>

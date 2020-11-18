@@ -1,0 +1,40 @@
+<h2>Nouvel athlete? </h2>
+
+<div class="container-fluid">
+    <form method="post" action="/recapitulatif">
+        <div class="form-group">
+            <label for="name">Nom de l'Athlete</label>
+            <input name="name" type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+            <label for="firstname">prenom de l'Athlete</label>
+            <input name="firstname" type="text" class="form-control" id="firstname">
+        </div>
+        <div class="form-group">
+            <label for="gender">Genre</label>
+            <input name="gender" type="text" class="form-control" id="gender">
+        </div>
+        <div class="form-group">
+            <label for="country">Pays</label>
+            <input name="country" type="text" class="form-control" id="country">
+        </div>
+        <div class="form-group">
+            <label for="sport">discipline</label>
+            <input name="sport" type="text" class="form-control" id="sport">
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+        <a href="/recap" class="btn btn-cancel">Annuler</a>
+    </form>
+</div>
+<h3>Nouvelle discipline? </h2>
+
+<div class="container-fluid">
+    <form method="post" action="/recapitulatif">
+        <div class="form-group">
+            <label for="name">Nom de la discipline</label>
+            <input name="name" type="text" class="form-control" id="name">
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+        <a href="/recapitulatif" class="btn btn-cancel">Annuler</a>
+    </form>
+</div>
